@@ -274,3 +274,64 @@ h2 > span{
 .companysImg > img{
     width: 15rem;
 }
+
+
+
+/* ----------------------------------- News ----------------------------------- */
+
+.news{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    background-color: yellow;
+}
+
+.newsHead{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsHead > h2{
+    display: inline-block;
+    font-size: 2.5rem;
+    color: var(--var--blue1);
+}
+
+.newsHead > button{
+    color: var(--var--verde1);
+    background-color: var(--var--white1);
+    border-radius: 5rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border: 0.2rem solid var(--var--blue1);
+    font-weight: 900;
+
+    transition: all ease 0.5s;
+}
+
+.newsHead > button:hover{
+    color: var(--var--white1);
+    background-color: var(--var--verde1);
+    border: 0.2rem solid var(--var--verde1);
+}
+
+.newsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 5rem;
+    box-sizing: border-box;
+
+    background-color: yellowgreen;
+}
+
+.newsContant > img{
+    width: 30rem;
+}
+
