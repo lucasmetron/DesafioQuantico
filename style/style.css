@@ -112,8 +112,71 @@
 
 
 .forum{
+    width: 80%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    gap: 5rem;
+    
+    /* background-color: violet; */
 }
+
+.forum > h3{
+    font-size: 2.5rem;
+    color: var(--var--blue1);
+    font-weight: 900;
+    text-align: center;
+}
+
+.forum > h2{
+    font-size: 4rem;
+    color: var(--var--blue1);
+    font-weight: 900;
+    text-align: center;
+}
+
+h2 > span{
+    font-size: 4rem;
+    color: var(--var--verde1);
+    font-weight: 900;
+}
+
+.government{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.leftGov{
+    font-size: 2.5rem;
+    color: var(--var--blue1);
+    text-align: start;
+}
+
+.leftGov > span{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.imageGov {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.imageGov >  img{
+    width: 20rem;
+}
+
+.rigthGov{
+    font-size: 2.5rem;
+    color: var(--var--blue1);
+    text-align: end;
+}
+
