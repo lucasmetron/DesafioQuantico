@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+
+:root{
+    
+    --var--white1: #FFFFFF;
+
+    --var--blue1: #000040;
+    --var--blue2: #020272;
+
+    --var--verde1:#13D099;
+}

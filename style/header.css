@@ -46,6 +46,9 @@ header{
     background-color: var(--var--white1);
     padding-top:1rem;
     padding-bottom: 1rem;
+    position:sticky;
+    top: 0;
+    z-index: 2; /* Colocado para header sempre ficar acima de qualquer div*/
 }
 
 
@@ -75,7 +78,7 @@ nav ul, li, a {
 }
 
 
-.contact > p {
+.contactHeader > p {
     color: var(--var--white1);
     font-size: 1.5rem;
     background-color: var(--var--blue1);
@@ -87,6 +90,6 @@ nav ul, li, a {
     transition: all ease 0.5s;
 }
 
-.contact > p:hover{
+.contactHeader > p:hover{
     background-color: var(--var--verde1);
 }
