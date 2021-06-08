@@ -9,6 +9,7 @@
 :root{
     
     --var--white1: #FFFFFF;
+    --var--white2: #d1d1d1;
 
     --var--blue1: #000040;
     --var--blue2: #020272;
@@ -121,8 +122,6 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
     gap: 5rem;
-    
-    /* background-color: violet; */
 }
 
 .forum > h3{
@@ -146,7 +145,6 @@ h2 > span{
 }
 
 .government{
-    /* background-color: yellow; */
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -180,3 +178,99 @@ h2 > span{
     text-align: end;
 }
 
+
+/* ----------------------------------- Objective ----------------------------------- */
+
+.objective1{
+    background-image: url(../assets/images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.obj1 > h2{
+    color: var(--var--white1);
+    font-size: 5rem;
+    font-weight: 900;
+    margin-top: 10rem;
+    text-shadow: 2px 2px 7px rgba(0,0,0,0.81);
+}
+
+.buttonKnowMore > p{
+    color: var(--var--white1);
+    text-shadow: 2px 2px 7px rgba(0,0,0,0.81);
+}
+
+.obj2 > p{
+    color: var(--var--white1);
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 5rem;
+    text-shadow: 2px 2px 7px rgba(0,0,0,0.81);
+}
+
+.objective2{
+    background-image: url(../assets/images/bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* ----------------------------------- Business Entities ----------------------------------- */
+
+.businessEntities{
+    width: 100%;
+    height: 100%;
+    background-color: var(--var--blue1);
+}
+
+.containerBusiness{
+    width: 100%;
+    margin: auto;
+    padding: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+.containerBusiness > p{
+    color: var(--var--white1);
+    font-size: 2rem;
+    font-weight: 50;
+}
+
+.containerBusiness > h2{
+    color: var(--var--white1);
+    font-size: 4.5rem;
+    font-weight: 200;
+}
+
+.containerBusiness > h2 > span{
+    color: var(--var--white1);
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+.companysImg{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.companysImg > img{
+    width: 15rem;
+}
