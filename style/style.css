@@ -20,7 +20,7 @@
 
  
 
-/* begin */
+/* -----------------------------------Welcome----------------------------------- */
 
 .welcome{
     position: relative;
@@ -34,16 +34,8 @@
     
 }
 
-/* .welcome > img{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-
-} */
 
 .containerWelcome{
-    /* background-color: yellowgreen; */
     height: 100%;
     width: 100%;
     display: flex;
@@ -100,7 +92,6 @@
 }
 
 .divPRight{
-    /* background-color: violet; */
     align-self: flex-end;
     padding-right: 10rem;
     padding-bottom: 20rem;
@@ -113,4 +104,16 @@
     color: var(--var--white1);
     font-weight: 200;
     text-shadow: 2px 2px 7px rgba(0,0,0,0.81);
+}
+
+
+
+/* ----------------------------------- Forum ----------------------------------- */
+
+
+.forum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
