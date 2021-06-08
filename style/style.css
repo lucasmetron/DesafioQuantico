@@ -14,9 +14,98 @@
     --var--blue2: #020272;
 
     --var--verde1:#13D099;
+
+    --var--black1:#000000;
 }
 
  
 
 /* begin */
 
+.welcome{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+    background-image: url(../assets/images/bg1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+/* .welcome > img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+
+} */
+
+.containerWelcome{
+    /* background-color: yellowgreen; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: var(--var--white1);
+    gap: 2rem;
+    padding-bottom: 10rem;
+    padding-left: 10rem;
+}
+
+.pWelcome{
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.containerWelcome > h1{
+    font-size: 5rem;
+}
+
+.buttonKnowMore > div{
+    font-size: 3rem;
+    color: var(--var--black1);
+    background-color: var(--var--white1);
+
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    cursor: pointer;
+
+    transition: all ease 0.5s;
+}
+
+.buttonKnowMore > div:hover{
+    background-color: var(--var--verde1);
+    color: var(--var--white1);
+}
+
+.arrow{
+    text-align: center;
+}
+
+.buttonKnowMore > p{
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.divPRight{
+    /* background-color: violet; */
+    align-self: flex-end;
+    padding-right: 10rem;
+    padding-bottom: 20rem;
+}
+
+.pAlignRight{
+    font-size: 2.5rem;
+    font-weight: 200;
+    align-self: flex-end;
+    color: var(--var--white1);
+    font-weight: 200;
+}

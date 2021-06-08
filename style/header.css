@@ -35,6 +35,7 @@
 .covidNotice > p > span{
     font-size: 1.5rem;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 
@@ -78,7 +79,7 @@ nav ul, li, a {
     color: var(--var--white1);
     font-size: 1.5rem;
     background-color: var(--var--blue1);
-    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    padding: 0.7rem 2rem 0.7rem 2rem;
     border-radius: 2rem;
     margin: 0;
     cursor: pointer;
