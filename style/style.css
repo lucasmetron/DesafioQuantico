@@ -58,16 +58,19 @@
 .pWelcome{
     font-size: 2.5rem;
     font-weight: 200;
+    text-shadow: 2px 2px 7px rgba(0,0,0,0.81);
 }
 
 .containerWelcome > h1{
     font-size: 5rem;
+    text-shadow: 2px 2px 7px rgba(0,0,0,0.81);
 }
 
 .buttonKnowMore > div{
     font-size: 3rem;
     color: var(--var--black1);
     background-color: var(--var--white1);
+    text-shadow: 2px 2px 7px rgba(0,0,0,0.81);
 
     display: inline-block;
     width: 5rem;
@@ -81,6 +84,7 @@
 .buttonKnowMore > div:hover{
     background-color: var(--var--verde1);
     color: var(--var--white1);
+    text-shadow: 2px 2px 7px rgba(0,0,0,0.81);
 }
 
 .arrow{
@@ -108,4 +112,5 @@
     align-self: flex-end;
     color: var(--var--white1);
     font-weight: 200;
+    text-shadow: 2px 2px 7px rgba(0,0,0,0.81);
 }
