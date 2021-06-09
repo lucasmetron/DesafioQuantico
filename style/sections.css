@@ -330,6 +330,10 @@ h2 > span{
     box-sizing: border-box;
 }
 
+.newsContant{
+    cursor: pointer;
+}
+
 .newsContant > img{
     width: 35rem;
 }
