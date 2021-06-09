@@ -35,3 +35,19 @@ footer > img{
 .socialMedias > a > img {
     width: 8rem;
 }
+
+
+@media screen and (max-width: 1100px){
+    
+footer{
+    padding: 3rem;
+    gap: 3rem;
+    flex-direction: column;
+
+}
+
+.footerNav > li{
+    display: block;
+}
+
+}
