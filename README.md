@@ -4,9 +4,9 @@
 </div>
 
 
-### - Olá Avaliador! :D
+### - Olá, Avaliador(a)! :D
 
-### - Conforme solicitado, foi feito o desafio para testar minhas skills em front-end. 
+### - Conforme solicitado, fiz o desafio para apresentar minhas skills em front-end. 
   
 ### - Nesta aplicação foram usadas as seguintes tecnologias:
 
@@ -15,10 +15,10 @@
 #### *JavaScript
 #### *Bootstrap
 
-### Demonstração da aplicação em telas maiores que 1100PX:
+### Demonstração da aplicação em telas maiores que 1.100px:
 ![Tela inicial](./assets/gifs/feePC.gif)
 
-### Demonstração da aplicação em telas menores que 1100PX:
+### Demonstração da aplicação em telas menores que 1.100px:
 ![Tela inicial](./assets/gifs/feeMobile.gif)
 
 ### Veja você mesmo! https://desafioquantico.netlify.app/
