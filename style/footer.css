@@ -15,3 +15,23 @@
 
     --var--verde1:#13D099;
 }
+
+footer{
+    background-color: var(--var--blue1);
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer > img{
+    width: 8rem;
+}
+
+.footerNav > li > a{
+    color: var(--var--white1);
+}
+
+.socialMedias > a > img {
+    width: 8rem;
+}
