@@ -105,6 +105,14 @@ nav ul, li, a {
     .covidNotice > p > span{
         font-size: 1rem;
     }   
+
+    .logo > img{
+        width: 6rem;
+    }
+
+    .contactHeader >  a > p {
+        font-size: 1.2rem;
+    }
     
     .navbar{
         text-align: center;
